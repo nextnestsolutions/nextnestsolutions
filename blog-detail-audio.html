@@ -15,8 +15,9 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
     <link rel="stylesheet" href="assets/css/perfect-scrollbar.css">
-    <link rel="stylesheet" href="assets/css/nouislider.min.css">
     <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/jquery-nao-calendar.css">
+    <link rel="stylesheet" href="assets/css/jquery-pseudo-ripple.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
@@ -435,12 +436,12 @@
                 <img data-depth="0.80" class="pg-ttl-shp-img img-fluid position-absolute" src="assets/images/ttl-bg-shp.png" alt="Title Background Shape" height="329" width="1920">
                 <div class="container">
                     <div class="pg-title-inner text-center position-relative w-100">
-                        <h1>Cart <i class="btm-ln v2 bg-color9"></i></h1>
+                        <span class="pg-title-cate d-inline-block"><a href="javascript:void(0);" title="">Post Formats</a></span>
+                        <h1>Audio <i class="btm-ln v2 bg-color9"></i></h1>
                         <ol class="breadcrumb d-inline-flex justify-content-center align-items-center flex-wrap">
                             <li class="breadcrumb-item"><a href="index.html" title="Home">Home</a></li>
-                            <li class="breadcrumb-item"><a href="shop.html" title="">Shop</a></li>
-                            <li class="breadcrumb-item"><a href="shop-detail.html" title="">Shop Detail</a></li>
-                            <li class="breadcrumb-item active">Cart</li>
+                            <li class="breadcrumb-item"><a href="blog-3column.html" title="">Blog</a></li>
+                            <li class="breadcrumb-item active">Audio</li>
                         </ol>
                     </div>
                 </div>
@@ -448,56 +449,168 @@
         </div>
     </section>
     <section>
-        <div class="w-100 pt-120 pb-100 position-relative">
+        <div class="w-100 pt-100 pb-120 position-relative">
             <div class="container">
-                <div class="cart-table w-100">
-                    <form class="cart-form w-100">
-                        <table class="prod-table">
-                            <thead>
-                                <tr>
-                                    <th></th><th>Product</th><th>Price</th><th>Quantity</th><th>Total Price</th><th></th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr class="cart_item">
-                                    <td class="product-thumbnail"><a href="shop-detail.html" title=""><img class="img-fluid brd-rd10" src="assets/images/resources/shop-img1.jpg" alt="Cart Image 1"></a></td>
-                                    <td class="product-name"><a href="shop-detail.html" title="">Made Simple Art</a></td>
-                                    <td class="product-price"><span class="price">$254.00</span></td>
-                                    <td class="product-quantity"><div class="quantity"><input type="number" step="1" min="1" max="50" value="1"></div></td>
-                                    <td class="product-subtotal"><span class="price">$254.00</span></td>
-                                    <td class="product-remove"><a class="remove" href="javascript:void(0);" title=""><i class="flaticon-delete"></i></a></td>
-                                </tr>
-                                <tr class="cart_item">
-                                    <td class="product-thumbnail"><a href="shop-detail.html" title=""><img class="img-fluid brd-rd10" src="assets/images/resources/shop-img2.jpg" alt="Cart Image 2"></a></td>
-                                    <td class="product-name"><a href="shop-detail.html" title="">Seo Fitness Workbook</a></td>
-                                    <td class="product-price"><span class="price">$231.00</span></td>
-                                    <td class="product-quantity"><div class="quantity"><input type="number" step="1" min="1" max="50" value="1"></div></td>
-                                    <td class="product-subtotal"><span class="price">$231.00</span></td>
-                                    <td class="product-remove"><a class="remove" href="javascript:void(0);" title=""><i class="flaticon-delete"></i></a></td>
-                                </tr>
-                                <tr class="cart_item">
-                                    <td class="product-thumbnail"><a href="shop-detail.html" title=""><img class="img-fluid brd-rd10" src="assets/images/resources/shop-img3.jpg" alt="Cart Image 3"></a></td>
-                                    <td class="product-name"><a href="shop-detail.html" title="">SEO Help</a></td>
-                                    <td class="product-price"><span class="price">$240.00</span></td>
-                                    <td class="product-quantity"><div class="quantity"><input type="number" step="1" min="1" max="50" value="1"></div></td>
-                                    <td class="product-subtotal"><span class="price">$240.00</span></td>
-                                    <td class="product-remove"><a class="remove" href="javascript:void(0);" title=""><i class="flaticon-delete"></i></a></td>
-                                </tr>
-                                <tr>
-                                    <td class="actions" colspan="6">
-                                        <div class="coupon-wrap d-flex flex-wrap justify-content-between">
-                                            <div class="coupon d-inline-flex">
-                                                <input type="text" placeholder="Coupon code">
-                                                <button class="thm-btn rounded-pill d-inline-block" type="submit">Apply Coupon</button>
-                                            </div>
-                                            <button class="thm-btn rounded-pill d-inline-block" type="submit">Update Cart</button>
+                <div class="blog-detail-wrap position-relative w-100">
+                    <div class="post-detail-media audioformate w-100">
+                        <iframe class="w-100 d-block" title="10.-(Bonus Track) Julieta Del Siglo XXI - Alexander Herrera A.k.a Seos Focker Oner by breakers Squad" src="https://w.soundcloud.com/player/?visual=true&amp;url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F101533781&amp;show_artwork=true&amp;maxwidth=1170&amp;maxheight=1000&amp;dnt=1"></iframe>
+                    </div>
+                    <div class="post-detail-desc w-100">
+                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget orci non nunc iaculis lobortis. Vestibulum pretium, sapien eget fermentum feugiat, ligula turpis viverra enim, eget luctus nisi nunc hendrerit lorem. Mauris vitae nisl sed purus mattis tincidunt vitae eget nisl. Phasellus semper lorem sed porttitor tempor. Vestibulum blandit at tortor non faucibus. Cras sit amet lorem convallis, scelerisque purus et, elementum ligula.</p>
+                        <blockquote>
+                            <p class="mb-0">Maecenas diam dolor, lacinia in leo a, elementum tempus orci. Vivamus aliquet ex vel erat feugiat efficitur. Quisque lacinia imperdiet nunc, sit amet blandit mauris semper et. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur semper dignissim leo, ac malesuada velit tincidunt vel. Donec quam nunc, congue quis magna vitae, interdum sagittis lorem. Proin in faucibus metus.</p>
+                            <cite>Inara Wolf, Ramos inc.</cite>
+                        </blockquote>
+                        <p class="mb-0">Sed laoreet pharetra magna eu gravida. Nullam massa magna, hendrerit id consequat vitae, semper in sapien. Vivamus sodales dolor quis ipsum imperdiet, nec tempor orci interdum. Nunc facilisis neque id semper ullamcorper. Nam ac faucibus arcu, facilisis finibus urna. Integer pulvinar nulla sit amet ipsum facilisis, sit amet placerat orci pretium. Fusce eget enim maximus, mollis quam vel, sagittis augue.</p>
+                        <div class="post-detail-gal w-100">
+                            <div class="row mrg15">
+                                <div class="col-md-4 col-sm-12 col-lg-4">
+                                    <div class="post-detail-gal-item position-relative overflow-hidden w-100">
+                                        <a href="assets/images/resources/post-detail-gal-img1.jpg" data-fancybox="gal" title=""><img class="img-fluid w-100" src="assets/images/resources/post-detail-gal-img1.jpg" alt="Post Detail Gallery Image 1"></a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-12 col-lg-4">
+                                    <div class="post-detail-gal-item position-relative overflow-hidden w-100">
+                                        <a href="assets/images/resources/post-detail-gal-img2.jpg" data-fancybox="gal" title=""><img class="img-fluid w-100" src="assets/images/resources/post-detail-gal-img2.jpg" alt="Post Detail Gallery Image 2"></a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-12 col-lg-4">
+                                    <div class="post-detail-gal-item position-relative overflow-hidden w-100">
+                                        <a href="assets/images/resources/post-detail-gal-img3.jpg" data-fancybox="gal" title=""><img class="img-fluid w-100" src="assets/images/resources/post-detail-gal-img3.jpg" alt="Post Detail Gallery Image 3"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mb-0">Nullam massa magna, hendrerit id consequat vitae, semper in sapien. Vivamus sodales dolor quis ipsum imperdiet, nec tempor orci interdum. Nunc facilisis neque id semper ullamcorper. Nam ac faucibus arcu, facilisis finibus urna. Integer pulvinar nulla sit amet ipsum facilisis, sit amet placerat orci pretium. Fusce eget enim maximus, mollis quam vel, sagittis augue.</p>
+                        <p class="mb-0">Pellentesque venenatis quis elit id maximus. In ligula tellus, placerat ut lobortis ut, tempus commodo felis. Quisque porttitor accumsan neque, accumsan bibendum risus maximus vel. Donec a congue sem. Phasellus venenatis gravida lectus, sed pharetra ex laoreet vel.</p>
+                    </div>
+                    <div class="post-nav w-100 d-flex flex-wrap justify-content-between">
+                        <div class="post-nav-item post-prev">
+                            <a class="d-block" href="javascript:void(0);" title="">
+                                <div class="post-nav-item d-flex flex-wrap align-items-center">
+                                    <img class="img-fluid" src="assets/images/resources/post-prev-img.jpg" alt="Post Prev Image">
+                                    <div class="post-nav-item-info">
+                                        <span>Prev Post</span>
+                                        <h5 class="mb-0">Creative solutions</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="post-nav-item post-next">
+                            <a class="d-block" href="javascript:void(0);" title="">
+                                <div class="post-nav-item d-flex flex-wrap align-items-center">
+                                    <div class="post-nav-item-info">
+                                        <span>Next Post</span>
+                                        <h5 class="mb-0">Gallery</h5>
+                                    </div>
+                                    <img class="img-fluid" src="assets/images/resources/post-next-img.jpg" alt="Post Next Image">
+                                </div>
+                            </a>
+                        </div>
+                    </div><!-- Post Navigation -->
+                    <div class="related-posts-wrap mt-45 mb-60 w-100">
+                        <div class="sec-title w-100 position-relative">
+                            <h2 class="mb-0">Related Posts</h2>
+                            <i class="btm-ln bg-color3"></i>
+                        </div><!-- Sec Title -->
+                        <div class="blog-wrap position-relative w-100">
+                            <div class="row post-caro">
+                                <div class="col-md-6 col-sm-6 col-lg-4">
+                                    <div class="post-box brd-rd15 w-100">
+                                        <div class="post-img overflow-hidden position-relative w-100">
+                                            <a href="blog-detail.html" title=""><div class="d-block" style="background-image: url(assets/images/resources/related-post-img1.jpg);"></div></a>
                                         </div>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </form>
-                </div><!-- Cart Table -->
+                                        <div class="post-info w-100">
+                                            <span class="post-cate d-block text-uppercase"><a href="javascript:void(0);" title="">Creativity</a></span>
+                                            <h3 class="mb-0"><a href="blog-detail.html" title="">Action plans</a></h3>
+                                            <a class="simple-link d-inline-block text-uppercase" href="blog-detail.html" title="">Read More<i class="flaticon-right-arrow text-color3"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-lg-4">
+                                    <div class="post-box brd-rd15 w-100">
+                                        <div class="post-img overflow-hidden position-relative w-100">
+                                            <a href="blog-detail.html" title=""><div class="d-block" style="background-image: url(assets/images/resources/related-post-img2.jpg);"></div></a>
+                                        </div>
+                                        <div class="post-info w-100">
+                                            <span class="post-cate d-block text-uppercase"><a href="javascript:void(0);" title="">Footer</a></span>
+                                            <h3 class="mb-0"><a href="blog-detail.html" title="">Praesent elementum Facilisis</a></h3>
+                                            <a class="simple-link d-inline-block text-uppercase" href="blog-detail.html" title="">Read More<i class="flaticon-right-arrow text-color3"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-lg-4">
+                                    <div class="post-box brd-rd15 w-100">
+                                        <div class="post-img overflow-hidden position-relative w-100">
+                                            <a href="blog-detail.html" title=""><div class="d-block" style="background-image: url(assets/images/resources/related-post-img3.jpg);"></div></a>
+                                        </div>
+                                        <div class="post-info w-100">
+                                            <span class="post-cate d-block text-uppercase"><a href="javascript:void(0);" title="">Masonry</a></span>
+                                            <h3 class="mb-0"><a href="blog-detail.html" title="">New Perspective</a></h3>
+                                            <a class="simple-link d-inline-block text-uppercase" href="blog-detail.html" title="">Read More<i class="flaticon-right-arrow text-color3"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-lg-4">
+                                    <div class="post-box brd-rd15 w-100">
+                                        <div class="post-img overflow-hidden position-relative w-100">
+                                            <a href="blog-detail.html" title=""><div class="d-block" style="background-image: url(assets/images/resources/related-post-img4.jpg);"></div></a>
+                                        </div>
+                                        <div class="post-info w-100">
+                                            <span class="post-cate d-block text-uppercase"><a href="javascript:void(0);" title="">Strategy</a></span>
+                                            <h3 class="mb-0"><a href="blog-detail.html" title="">Great team</a></h3>
+                                            <a class="simple-link d-inline-block text-uppercase" href="blog-detail.html" title="">Read More<i class="flaticon-right-arrow text-color3"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-lg-4">
+                                    <div class="post-box brd-rd15 w-100">
+                                        <div class="post-img overflow-hidden position-relative w-100">
+                                            <a href="blog-detail.html" title=""><div class="d-block" style="background-image: url(assets/images/resources/related-post-img5.jpg);"></div></a>
+                                        </div>
+                                        <div class="post-info w-100">
+                                            <span class="post-cate d-block text-uppercase"><a href="javascript:void(0);" title="">Creativity</a></span>
+                                            <h3 class="mb-0"><a href="blog-detail.html" title="">Test UI/UX</a></h3>
+                                            <a class="simple-link d-inline-block text-uppercase" href="blog-detail.html" title="">Read More<i class="flaticon-right-arrow text-color3"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- Blog Wrap -->
+                    </div><!-- Related Posts Wrap -->
+                    <div class="reply-form-wrap w-100">
+                        <div class="devider bg-color25 mb-80 w-100"></div>
+                        <div class="sec-title w-100 position-relative">
+                            <h2 class="mb-0">Write A Comment</h2>
+                            <i class="btm-ln bg-color3"></i>
+                        </div><!-- Sec Title -->
+                        <form class="w-100">
+                            <div class="row mrg20">
+                                <div class="col-md-6 col-sm-6 col-lg-6">
+                                    <div class="field-box w-100">
+                                        <label>Name <sup class="text-color3">*</sup></label>
+                                        <input type="text" placeholder="Your Name">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-lg-6">
+                                    <div class="field-box w-100">
+                                        <label>Email <sup class="text-color3">*</sup></label>
+                                        <input type="email" placeholder="Your Email">
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-sm-12 col-lg-12">
+                                    <div class="field-box w-100">
+                                        <label>Comment <sup class="text-color3">*</sup></label>
+                                        <textarea placeholder="Your Comment"></textarea>
+                                    </div>
+                                    <div class="field-btn w-100">
+                                        <button class="thm-btn d-inline-block rounded-pill" type="submit">Post Comment</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div><!-- Reply Form Wrap -->
+                </div><!-- Blog Detail Wrap -->
             </div>
         </div>
     </section>
@@ -574,11 +687,12 @@
 <script src="assets/js/tilt.jquery.min.js"></script>
 <script src="assets/js/jquery.fancybox.min.js"></script>
 <script src="assets/js/perfect-scrollbar.min.js"></script>
-<script src="assets/js/nouislider.min.js"></script>
-<script src="assets/js/ResizeSensor.min.js"></script>
-<script src="assets/js/theia-sticky-sidebar.min.js"></script>
 <script src="assets/js/slick.min.js"></script>
 <script src="assets/js/scroll-up-bar.min.js"></script>
+<script src="assets/js/ResizeSensor.min.js"></script>
+<script src="assets/js/theia-sticky-sidebar.min.js"></script>
+<script src="assets/js/jquery-nao-calendar.js"></script>
+<script src="assets/js/jquery-pseudo-ripple.js"></script>
 <script src="assets/js/custom-scripts.js"></script>
 </body>
 </html>

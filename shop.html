@@ -435,12 +435,10 @@
                 <img data-depth="0.80" class="pg-ttl-shp-img img-fluid position-absolute" src="assets/images/ttl-bg-shp.png" alt="Title Background Shape" height="329" width="1920">
                 <div class="container">
                     <div class="pg-title-inner text-center position-relative w-100">
-                        <h1>Cart <i class="btm-ln v2 bg-color9"></i></h1>
+                        <h1>Shop <i class="btm-ln v2 bg-color9"></i></h1>
                         <ol class="breadcrumb d-inline-flex justify-content-center align-items-center flex-wrap">
                             <li class="breadcrumb-item"><a href="index.html" title="Home">Home</a></li>
-                            <li class="breadcrumb-item"><a href="shop.html" title="">Shop</a></li>
-                            <li class="breadcrumb-item"><a href="shop-detail.html" title="">Shop Detail</a></li>
-                            <li class="breadcrumb-item active">Cart</li>
+                            <li class="breadcrumb-item active">Shop</li>
                         </ol>
                     </div>
                 </div>
@@ -450,54 +448,239 @@
     <section>
         <div class="w-100 pt-120 pb-100 position-relative">
             <div class="container">
-                <div class="cart-table w-100">
-                    <form class="cart-form w-100">
-                        <table class="prod-table">
-                            <thead>
-                                <tr>
-                                    <th></th><th>Product</th><th>Price</th><th>Quantity</th><th>Total Price</th><th></th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr class="cart_item">
-                                    <td class="product-thumbnail"><a href="shop-detail.html" title=""><img class="img-fluid brd-rd10" src="assets/images/resources/shop-img1.jpg" alt="Cart Image 1"></a></td>
-                                    <td class="product-name"><a href="shop-detail.html" title="">Made Simple Art</a></td>
-                                    <td class="product-price"><span class="price">$254.00</span></td>
-                                    <td class="product-quantity"><div class="quantity"><input type="number" step="1" min="1" max="50" value="1"></div></td>
-                                    <td class="product-subtotal"><span class="price">$254.00</span></td>
-                                    <td class="product-remove"><a class="remove" href="javascript:void(0);" title=""><i class="flaticon-delete"></i></a></td>
-                                </tr>
-                                <tr class="cart_item">
-                                    <td class="product-thumbnail"><a href="shop-detail.html" title=""><img class="img-fluid brd-rd10" src="assets/images/resources/shop-img2.jpg" alt="Cart Image 2"></a></td>
-                                    <td class="product-name"><a href="shop-detail.html" title="">Seo Fitness Workbook</a></td>
-                                    <td class="product-price"><span class="price">$231.00</span></td>
-                                    <td class="product-quantity"><div class="quantity"><input type="number" step="1" min="1" max="50" value="1"></div></td>
-                                    <td class="product-subtotal"><span class="price">$231.00</span></td>
-                                    <td class="product-remove"><a class="remove" href="javascript:void(0);" title=""><i class="flaticon-delete"></i></a></td>
-                                </tr>
-                                <tr class="cart_item">
-                                    <td class="product-thumbnail"><a href="shop-detail.html" title=""><img class="img-fluid brd-rd10" src="assets/images/resources/shop-img3.jpg" alt="Cart Image 3"></a></td>
-                                    <td class="product-name"><a href="shop-detail.html" title="">SEO Help</a></td>
-                                    <td class="product-price"><span class="price">$240.00</span></td>
-                                    <td class="product-quantity"><div class="quantity"><input type="number" step="1" min="1" max="50" value="1"></div></td>
-                                    <td class="product-subtotal"><span class="price">$240.00</span></td>
-                                    <td class="product-remove"><a class="remove" href="javascript:void(0);" title=""><i class="flaticon-delete"></i></a></td>
-                                </tr>
-                                <tr>
-                                    <td class="actions" colspan="6">
-                                        <div class="coupon-wrap d-flex flex-wrap justify-content-between">
-                                            <div class="coupon d-inline-flex">
-                                                <input type="text" placeholder="Coupon code">
-                                                <button class="thm-btn rounded-pill d-inline-block" type="submit">Apply Coupon</button>
-                                            </div>
-                                            <button class="thm-btn rounded-pill d-inline-block" type="submit">Update Cart</button>
+                <div class="shop-wrap shop-wth-sidebar position-relative w-100">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12 col-lg-3">
+                            <div class="leftside">
+                                <div class="theiaStickySidebar">
+                                    <aside class="sidebar-wrap w-100 position-relative">
+                                        <div class="widget v2 w-100">
+                                            <h3>Top Rated Products</h3>
+                                            <div class="ratedproducts-wrap w-100">
+                                                <div class="ratedproduct-box d-flex flex-wrap align-items-center w-100">
+                                                    <div class="ratedproduct-img"><a href="shop-detail.html" title=""><img class="img-fluid w-100" src="assets/images/resources/shop-img1.jpg" alt="Shop Image 1"></a></div>
+                                                    <div class="ratedproduct-info">
+                                                        <h5 class="mb-0"><a href="shop-detail.html" title="">Seo Made Simple</a></h5>
+                                                        <span class="d-block rating"><i class="fas fa-star on"></i><i class="fas fa-star on"></i><i class="fas fa-star on"></i><i class="fas fa-star on"></i><i class="fas fa-star on"></i></span>
+                                                        <span class="price d-block">$280.00</span>
+                                                    </div>
+                                                </div>
+                                                <div class="ratedproduct-box d-flex flex-wrap align-items-center w-100">
+                                                    <div class="ratedproduct-img"><a href="shop-detail.html" title=""><img class="img-fluid w-100" src="assets/images/resources/shop-img2.jpg" alt="Shop Image 2"></a></div>
+                                                    <div class="ratedproduct-info">
+                                                        <h5 class="mb-0"><a href="shop-detail.html" title="">Made Simple Art</a></h5>
+                                                        <span class="d-block rating"><i class="fas fa-star on"></i><i class="fas fa-star on"></i><i class="fas fa-star on"></i><i class="fas fa-star on"></i><i class="fas fa-star-half-alt on"></i></span>
+                                                        <span class="price d-block">$254.00</span>
+                                                    </div>
+                                                </div>
+                                                <div class="ratedproduct-box d-flex flex-wrap align-items-center w-100">
+                                                    <div class="ratedproduct-img"><a href="shop-detail.html" title=""><img class="img-fluid w-100" src="assets/images/resources/shop-img3.jpg" alt="Shop Image 3"></a></div>
+                                                    <div class="ratedproduct-info">
+                                                        <h5 class="mb-0"><a href="shop-detail.html" title="">The Art of Simple</a></h5>
+                                                        <span class="d-block rating"><i class="fas fa-star on"></i><i class="fas fa-star on"></i><i class="fas fa-star on"></i><i class="fas fa-star on"></i><i class="far fa-star off"></i></span>
+                                                        <span class="price d-block">$20.00</span>
+                                                    </div>
+                                                </div>
+                                            </div><!-- Rated Products Wrap -->
                                         </div>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </form>
-                </div><!-- Cart Table -->
+                                        <div class="widget v2 w-100">
+                                            <h3>Filter By Price</h3>
+                                            <div class="prod-filter" id="prod-filter"></div>
+                                            <div class="filter-wrap d-flex justify-content-between">
+                                                <div class="price-filter">
+                                                    Price: <span id="lower-value"></span> - <span id="upper-value"></span>
+                                                </div>
+                                                <button class="thm-btn rounded-pill d-inline-block" type="submit">Filter</button>
+                                            </div>
+                                        </div>
+                                        <div class="widget v2 w-100">
+                                            <h3>Categories</h3>
+                                            <ul class="mb-0 list-unstyled w-100">
+                                                <li><a href="javascript:void(0);" title="">Creativity</a></li>
+                                                <li><a href="javascript:void(0);" title="">Footer</a></li>
+                                                <li><a href="javascript:void(0);" title="">Marketing</a></li>
+                                                <li><a href="javascript:void(0);" title="">Masonry</a></li>
+                                                <li><a href="javascript:void(0);" title="">Post Formats</a></li>
+                                                <li><a href="javascript:void(0);" title="">SEO</a></li>
+                                                <li><a href="javascript:void(0);" title="">Strategy</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="widget w-100">
+                                            <div class="banner-box bannerstyle2 brd-rd15 text-center justify-content-center d-flex flex-wrap align-items-center overflow-hidden position-relative w-100" style="background-image: url(assets/images/banner-bg2.jpg);">
+                                                <div class="banner-info text-white">
+                                                    <h4 class="mb-0">Final Clearance!</h4>
+                                                    <p class="mb-0">Get 30% off for all products.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </aside><!-- Sidebar Wrap -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-lg-9">
+                            <div class="prod-head d-flex flex-wrap justify-content-between align-items-center w-100">
+                                <div class="selc-wrap">
+                                    <select name="orderby" class="orderby" aria-label="Shop order">
+                                        <option value="menu_order" selected="selected">Default sorting</option>
+                                        <option value="popularity">Sort by popularity</option>
+                                        <option value="rating">Sort by average rating</option>
+                                        <option value="date">Sort by latest</option>
+                                        <option value="price">Sort by price: low to high</option>
+                                        <option value="price-desc">Sort by price: high to low</option>
+                                    </select>
+                                </div>
+                                <p class="mb-0">Showing 1-9 of 12 results</p>
+                            </div><!-- Product Head -->
+                            <div class="prod-inner w-100">
+                                <div class="row justify-content-center">
+                                    <div class="col-md-6 col-sm-6 col-lg-4">
+                                        <div class="prod-box w-100">
+                                            <div class="prod-img brd-rd20 position-relative overflow-hidden w-100">
+                                                <img class="img-fluid w-100" src="assets/images/resources/shop-img1.jpg" alt="Shop Image 1" height="570" width="570">
+                                                <span class="rating position-absolute"><i class="fas fa-star on"></i><i class="fas fa-star on"></i><i class="fas fa-star on"></i><i class="fas fa-star on"></i><i class="far fa-star off"></i></span>
+                                                <a class="thm-btn position-absolute rounded-pill d-inline-block" href="shop-detail.html" title=""><i class="flaticon-shopping-cart-silhouette"></i>Add to Cart</a>
+                                            </div>
+                                            <div class="prod-info w-100">
+                                                <h5 class="mb-0"><a href="shop-detail.html" title="">Made Simple Art</a></h5>
+                                                <div class="prod-btm d-flex flex-wrap align-items-center w-100">
+                                                    <span class="price"><ins>$254.00</ins></span>
+                                                    <span class="prod-cate position-relative"><a href="javascript:void(0);">Books</a></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-lg-4">
+                                        <div class="prod-box w-100">
+                                            <div class="prod-img brd-rd20 position-relative overflow-hidden w-100">
+                                                <img class="img-fluid w-100" src="assets/images/resources/shop-img2.jpg" alt="Shop Image 2" height="570" width="570">
+                                                <span class="rating position-absolute"><i class="fas fa-star on"></i><i class="fas fa-star on"></i><i class="fas fa-star on"></i><i class="far fa-star off"></i><i class="far fa-star off"></i></span>
+                                                <a class="thm-btn position-absolute rounded-pill d-inline-block" href="shop-detail.html" title=""><i class="flaticon-shopping-cart-silhouette"></i>Add to Cart</a>
+                                            </div>
+                                            <div class="prod-info w-100">
+                                                <h5 class="mb-0"><a href="shop-detail.html" title="">Seo Fitness Workbook</a></h5>
+                                                <div class="prod-btm d-flex flex-wrap align-items-center w-100">
+                                                    <span class="price"><ins>$231.00</ins></span>
+                                                    <span class="prod-cate position-relative"><a href="javascript:void(0);">Books</a></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-lg-4">
+                                        <div class="prod-box w-100">
+                                            <div class="prod-img brd-rd20 position-relative overflow-hidden w-100">
+                                                <img class="img-fluid w-100" src="assets/images/resources/shop-img3.jpg" alt="Shop Image 3" height="570" width="570">
+                                                <span class="rating position-absolute"><i class="fas fa-star on"></i><i class="fas fa-star on"></i><i class="fas fa-star on"></i><i class="far fa-star off"></i><i class="far fa-star off"></i></span>
+                                                <a class="thm-btn position-absolute rounded-pill d-inline-block" href="shop-detail.html" title=""><i class="flaticon-shopping-cart-silhouette"></i>Add to Cart</a>
+                                            </div>
+                                            <div class="prod-info w-100">
+                                                <h5 class="mb-0"><a href="shop-detail.html" title="">SEO Help</a></h5>
+                                                <div class="prod-btm d-flex flex-wrap align-items-center w-100">
+                                                    <span class="price"><ins>$240.00</ins></span>
+                                                    <span class="prod-cate position-relative"><a href="javascript:void(0);">Books</a></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-lg-4">
+                                        <div class="prod-box w-100">
+                                            <div class="prod-img brd-rd20 position-relative overflow-hidden w-100">
+                                                <img class="img-fluid w-100" src="assets/images/resources/shop-img4.jpg" alt="Shop Image 4" height="570" width="570">
+                                                <span class="rating position-absolute"><i class="fas fa-star on"></i><i class="fas fa-star on"></i><i class="fas fa-star on"></i><i class="fas fa-star on"></i><i class="fas fa-star on"></i></span>
+                                                <a class="thm-btn position-absolute rounded-pill d-inline-block" href="shop-detail.html" title=""><i class="flaticon-shopping-cart-silhouette"></i>Add to Cart</a>
+                                            </div>
+                                            <div class="prod-info w-100">
+                                                <h5 class="mb-0"><a href="shop-detail.html" title="">Seo Made Simple</a></h5>
+                                                <div class="prod-btm d-flex flex-wrap align-items-center w-100">
+                                                    <span class="price"><ins>$280.00</ins></span>
+                                                    <span class="prod-cate position-relative"><a href="javascript:void(0);">Books</a></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-lg-4">
+                                        <div class="prod-box w-100">
+                                            <div class="prod-img brd-rd20 position-relative overflow-hidden w-100">
+                                                <img class="img-fluid w-100" src="assets/images/resources/shop-img5.jpg" alt="Shop Image 5" height="570" width="570">
+                                                <span class="badge bg-color9 brd-rd10 onsale position-absolute">-15%</span>
+                                                <span class="rating position-absolute"><i class="fas fa-star on"></i><i class="fas fa-star on"></i><i class="fas fa-star on"></i><i class="far fa-star off"></i><i class="far fa-star off"></i></span>
+                                                <a class="thm-btn position-absolute rounded-pill d-inline-block" href="shop-detail.html" title=""><i class="flaticon-shopping-cart-silhouette"></i>Add to Cart</a>
+                                            </div>
+                                            <div class="prod-info w-100">
+                                                <h5 class="mb-0"><a href="shop-detail.html" title="">Seo Made Simple</a></h5>
+                                                <div class="prod-btm d-flex flex-wrap align-items-center w-100">
+                                                    <span class="price"><del>$230.00</del><ins>$195.00</ins></span>
+                                                    <span class="prod-cate position-relative"><a href="javascript:void(0);">Books</a></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-lg-4">
+                                        <div class="prod-box w-100">
+                                            <div class="prod-img brd-rd20 position-relative overflow-hidden w-100">
+                                                <img class="img-fluid w-100" src="assets/images/resources/shop-img6.jpg" alt="Shop Image 6" height="570" width="570">
+                                                <a class="thm-btn position-absolute rounded-pill d-inline-block" href="shop-detail.html" title=""><i class="flaticon-shopping-cart-silhouette"></i>Add to Cart</a>
+                                            </div>
+                                            <div class="prod-info w-100">
+                                                <h5 class="mb-0"><a href="shop-detail.html" title="">Seo Made Simple</a></h5>
+                                                <div class="prod-btm d-flex flex-wrap align-items-center w-100">
+                                                    <span class="price"><ins>$187.00</ins></span>
+                                                    <span class="prod-cate position-relative"><a href="javascript:void(0);">Books</a></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-lg-4">
+                                        <div class="prod-box w-100">
+                                            <div class="prod-img brd-rd20 position-relative overflow-hidden w-100">
+                                                <img class="img-fluid w-100" src="assets/images/resources/shop-img7.jpg" alt="Shop Image 7" height="570" width="570">
+                                                <a class="thm-btn position-absolute rounded-pill d-inline-block" href="shop-detail.html" title=""><i class="flaticon-shopping-cart-silhouette"></i>Add to Cart</a>
+                                            </div>
+                                            <div class="prod-info w-100">
+                                                <h5 class="mb-0"><a href="shop-detail.html" title="">Seo Made Simple</a></h5>
+                                                <div class="prod-btm d-flex flex-wrap align-items-center w-100">
+                                                    <span class="price"><ins>$270.00</ins></span>
+                                                    <span class="prod-cate position-relative"><a href="javascript:void(0);">Books</a></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-lg-4">
+                                        <div class="prod-box w-100">
+                                            <div class="prod-img brd-rd20 position-relative overflow-hidden w-100">
+                                                <img class="img-fluid w-100" src="assets/images/resources/shop-img8.jpg" alt="Shop Image 8" height="570" width="570">
+                                                <span class="rating position-absolute"><i class="fas fa-star on"></i><i class="fas fa-star on"></i><i class="fas fa-star on"></i><i class="fas fa-star on"></i><i class="far fa-star off"></i></span>
+                                                <a class="thm-btn position-absolute rounded-pill d-inline-block" href="shop-detail.html" title=""><i class="flaticon-shopping-cart-silhouette"></i>Add to Cart</a>
+                                            </div>
+                                            <div class="prod-info w-100">
+                                                <h5 class="mb-0"><a href="shop-detail.html" title="">The Art of SEO</a></h5>
+                                                <div class="prod-btm d-flex flex-wrap align-items-center w-100">
+                                                    <span class="price"><ins>$219.00</ins></span>
+                                                    <span class="prod-cate position-relative"><a href="javascript:void(0);">Books</a></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-lg-4">
+                                        <div class="prod-box w-100">
+                                            <div class="prod-img brd-rd20 position-relative overflow-hidden w-100">
+                                                <img class="img-fluid w-100" src="assets/images/resources/shop-img9.jpg" alt="Shop Image 9" height="570" width="570">
+                                                <span class="rating position-absolute"><i class="fas fa-star on"></i><i class="fas fa-star on"></i><i class="fas fa-star on"></i><i class="fas fa-star on"></i><i class="far fa-star off"></i></span>
+                                                <a class="thm-btn position-absolute rounded-pill d-inline-block" href="shop-detail.html" title=""><i class="flaticon-shopping-cart-silhouette"></i>Add to Cart</a>
+                                            </div>
+                                            <div class="prod-info w-100">
+                                                <h5 class="mb-0"><a href="shop-detail.html" title="">The Art of SEO</a></h5>
+                                                <div class="prod-btm d-flex flex-wrap align-items-center w-100">
+                                                    <span class="price"><ins>$248.00</ins></span>
+                                                    <span class="prod-cate position-relative"><a href="javascript:void(0);">Books</a></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- Product Inner -->
+                        </div>
+                    </div>
+                </div><!-- Shop Wrap -->
             </div>
         </div>
     </section>

@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
     <link rel="stylesheet" href="assets/css/perfect-scrollbar.css">
-    <link rel="stylesheet" href="assets/css/nouislider.min.css">
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
@@ -435,12 +434,10 @@
                 <img data-depth="0.80" class="pg-ttl-shp-img img-fluid position-absolute" src="assets/images/ttl-bg-shp.png" alt="Title Background Shape" height="329" width="1920">
                 <div class="container">
                     <div class="pg-title-inner text-center position-relative w-100">
-                        <h1>Cart <i class="btm-ln v2 bg-color9"></i></h1>
+                        <h1>Pricing Tables <i class="btm-ln v2 bg-color9"></i></h1>
                         <ol class="breadcrumb d-inline-flex justify-content-center align-items-center flex-wrap">
                             <li class="breadcrumb-item"><a href="index.html" title="Home">Home</a></li>
-                            <li class="breadcrumb-item"><a href="shop.html" title="">Shop</a></li>
-                            <li class="breadcrumb-item"><a href="shop-detail.html" title="">Shop Detail</a></li>
-                            <li class="breadcrumb-item active">Cart</li>
+                            <li class="breadcrumb-item active">Pricing Tables</li>
                         </ol>
                     </div>
                 </div>
@@ -448,56 +445,136 @@
         </div>
     </section>
     <section>
-        <div class="w-100 pt-120 pb-100 position-relative">
+        <div class="w-100 pt-120 pb-120 position-relative">
+            <div class="fixed-bg" style="background-image: url(assets/images/bg-shp-18.png);"></div>
+            <div class="particles-wrap position-absolute w-100">
+                <div id="particle-3" class="particles-js w-100" data-color="#a4aeed" data-size="2" data-linked="1" data-count="50" data-speed="4" data-hide="767" data-shape="circle" data-mode="out">
+                    <canvas></canvas>
+                </div>
+            </div><!-- Particles Wrap -->
             <div class="container">
-                <div class="cart-table w-100">
-                    <form class="cart-form w-100">
-                        <table class="prod-table">
-                            <thead>
-                                <tr>
-                                    <th></th><th>Product</th><th>Price</th><th>Quantity</th><th>Total Price</th><th></th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr class="cart_item">
-                                    <td class="product-thumbnail"><a href="shop-detail.html" title=""><img class="img-fluid brd-rd10" src="assets/images/resources/shop-img1.jpg" alt="Cart Image 1"></a></td>
-                                    <td class="product-name"><a href="shop-detail.html" title="">Made Simple Art</a></td>
-                                    <td class="product-price"><span class="price">$254.00</span></td>
-                                    <td class="product-quantity"><div class="quantity"><input type="number" step="1" min="1" max="50" value="1"></div></td>
-                                    <td class="product-subtotal"><span class="price">$254.00</span></td>
-                                    <td class="product-remove"><a class="remove" href="javascript:void(0);" title=""><i class="flaticon-delete"></i></a></td>
-                                </tr>
-                                <tr class="cart_item">
-                                    <td class="product-thumbnail"><a href="shop-detail.html" title=""><img class="img-fluid brd-rd10" src="assets/images/resources/shop-img2.jpg" alt="Cart Image 2"></a></td>
-                                    <td class="product-name"><a href="shop-detail.html" title="">Seo Fitness Workbook</a></td>
-                                    <td class="product-price"><span class="price">$231.00</span></td>
-                                    <td class="product-quantity"><div class="quantity"><input type="number" step="1" min="1" max="50" value="1"></div></td>
-                                    <td class="product-subtotal"><span class="price">$231.00</span></td>
-                                    <td class="product-remove"><a class="remove" href="javascript:void(0);" title=""><i class="flaticon-delete"></i></a></td>
-                                </tr>
-                                <tr class="cart_item">
-                                    <td class="product-thumbnail"><a href="shop-detail.html" title=""><img class="img-fluid brd-rd10" src="assets/images/resources/shop-img3.jpg" alt="Cart Image 3"></a></td>
-                                    <td class="product-name"><a href="shop-detail.html" title="">SEO Help</a></td>
-                                    <td class="product-price"><span class="price">$240.00</span></td>
-                                    <td class="product-quantity"><div class="quantity"><input type="number" step="1" min="1" max="50" value="1"></div></td>
-                                    <td class="product-subtotal"><span class="price">$240.00</span></td>
-                                    <td class="product-remove"><a class="remove" href="javascript:void(0);" title=""><i class="flaticon-delete"></i></a></td>
-                                </tr>
-                                <tr>
-                                    <td class="actions" colspan="6">
-                                        <div class="coupon-wrap d-flex flex-wrap justify-content-between">
-                                            <div class="coupon d-inline-flex">
-                                                <input type="text" placeholder="Coupon code">
-                                                <button class="thm-btn rounded-pill d-inline-block" type="submit">Apply Coupon</button>
-                                            </div>
-                                            <button class="thm-btn rounded-pill d-inline-block" type="submit">Update Cart</button>
-                                        </div>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+                <div class="sec-title text-center w-100 position-relative">
+                    <h2 class="mb-0"><span>Choose</span> Your Plan</h2>
+                    <i class="btm-ln bg-color17"></i>
+                </div><!-- Sec Title -->
+                <div class="price-plans-wrap schm-17 text-center position-relative w-100">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 col-sm-6 col-lg-3">
+                            <div class="plan-box text-center brd-rd20 w-100">
+                                <div class="plan-head w-100">
+                                    <h3 class="mb-0">Essentials</h3>
+                                    <h2 class="mb-0"><sup>$</sup>29<small>/month</small></h2>
+                                </div>
+                                <div class="plan-body w-100">
+                                    <ul class="mb-0 list-unstyled">
+                                        <li>5 Users</li>
+                                        <li>50 Team Members</li>
+                                        <li>Unlimited Email</li>
+                                        <li>Manage Permissions</li>
+                                        <li><del>Developer Support</del></li>
+                                        <li><del>A/B Testing</del></li>
+                                    </ul>
+                                </div>
+                                <a class="thm-btn v3 brd-btn d-inline-block rounded-pill" href="javascript:void(0);" title="">Sign Up</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-lg-3">
+                            <div class="plan-box active text-center brd-rd20 w-100">
+                                <div class="plan-head w-100">
+                                    <h3 class="mb-0">Basic</h3>
+                                    <h2 class="mb-0"><sup>$</sup>49<small>/month</small></h2>
+                                </div>
+                                <div class="plan-body w-100">
+                                    <ul class="mb-0 list-unstyled">
+                                        <li>20 Users</li>
+                                        <li>500 Team Members</li>
+                                        <li>Unlimited Email</li>
+                                        <li>Manage Permissions</li>
+                                        <li>Developer Support</li>
+                                        <li><del>A/B Testing</del></li>
+                                    </ul>
+                                </div>
+                                <a class="thm-btn v3 invr d-inline-block rounded-pill" href="javascript:void(0);" title="">Sign Up</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-lg-3">
+                            <div class="plan-box text-center brd-rd20 w-100">
+                                <div class="plan-head w-100">
+                                    <h3 class="mb-0">Ultra</h3>
+                                    <h2 class="mb-0"><sup>$</sup>69<small>/month</small></h2>
+                                </div>
+                                <div class="plan-body w-100">
+                                    <ul class="mb-0 list-unstyled">
+                                        <li>50 Users</li>
+                                        <li>500 Team Members</li>
+                                        <li>Unlimited Email</li>
+                                        <li>Manage Permissions</li>
+                                        <li>Developer Support</li>
+                                        <li>A/B Testing</li>
+                                    </ul>
+                                </div>
+                                <a class="thm-btn v3 brd-btn d-inline-block rounded-pill" href="javascript:void(0);" title="">Sign Up</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-lg-3">
+                            <div class="plan-box text-center brd-rd20 w-100">
+                                <div class="plan-head w-100">
+                                    <h3 class="mb-0">Premium</h3>
+                                    <h2 class="mb-0"><sup>$</sup>99<small>/month</small></h2>
+                                </div>
+                                <div class="plan-body w-100">
+                                    <ul class="mb-0 list-unstyled">
+                                        <li>100+ Users</li>
+                                        <li>900 Team Members</li>
+                                        <li>Unlimited Email</li>
+                                        <li>Manage Permissions</li>
+                                        <li>Developer Support</li>
+                                        <li>A/B Testing</li>
+                                    </ul>
+                                </div>
+                                <a class="thm-btn v3 brd-btn d-inline-block rounded-pill" href="javascript:void(0);" title="">Sign Up</a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- Price Plans Wrap -->
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="w-100 pt-100 pb-90 position-relative">
+            <div class="fixed-bg" style="background-image: url(assets/images/bg-9.png);"></div>
+            <div class="container">
+                <div class="sec-title text-white text-center w-100 position-relative">
+                    <h2 class="mb-0"><span>Get a</span> Free Audit</h2>
+                    <i class="btm-ln bg-color3"></i>
+                </div><!-- Sec Title -->
+                <div class="cnt-wrap text-center position-relative w-100">
+                    <form class="w-100 d-inline-block" action="#" method="post" id="email-form">
+                        <div class="form-group w-100">
+                            <div class="response w-100"></div>
+                        </div>
+                        <div class="row mrg20">
+                            <div class="col-md-6 col-sm-6 col-lg-6">
+                                <div class="field-box w-100">
+                                    <input class="fname" type="text" name="fname" placeholder="Your Name" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-lg-6">
+                                <div class="field-box w-100">
+                                    <input class="email" type="email" name="email" placeholder="Your email" required>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-lg-12">
+                                <div class="field-box w-100">
+                                    <textarea class="contact_message" name="contact_message" placeholder="Send Message" required></textarea>
+                                </div>
+                                <div class="field-btn text-center w-100">
+                                    <button class="thm-btn d-inline-block rounded-pill" id="submit" type="submit">Send Request</button>
+                                </div>
+                            </div>
+                        </div>
                     </form>
-                </div><!-- Cart Table -->
+                </div><!-- Contact Form Wrap -->
             </div>
         </div>
     </section>
@@ -574,9 +651,6 @@
 <script src="assets/js/tilt.jquery.min.js"></script>
 <script src="assets/js/jquery.fancybox.min.js"></script>
 <script src="assets/js/perfect-scrollbar.min.js"></script>
-<script src="assets/js/nouislider.min.js"></script>
-<script src="assets/js/ResizeSensor.min.js"></script>
-<script src="assets/js/theia-sticky-sidebar.min.js"></script>
 <script src="assets/js/slick.min.js"></script>
 <script src="assets/js/scroll-up-bar.min.js"></script>
 <script src="assets/js/custom-scripts.js"></script>
